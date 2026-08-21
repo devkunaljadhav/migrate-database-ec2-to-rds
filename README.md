@@ -1,9 +1,3 @@
-Migrate EC2 DB Data to the RDS Instance
-mazya aata chya project साठी readme de na
-
-नक्की! तुझ्या **"Migrate EC2 DB Data to RDS Instance"** प्रोजेक्टसाठी मी एक संपूर्ण, professional README.md तयार करून देतो. हा README तुझ्या GitHub वर टाकण्यासाठी ready-to-use आहे.
-
-***
 
 ## 📄 `README.md`
 
@@ -166,24 +160,3 @@ mysql -h <rds-endpoint> -u admin -p -e "SHOW TABLES;"
 Aspiring DevOps Engineer | AWS & Linux Enthusiast  
 [LinkedIn](https://linkedin.com/in/kunaljadhav) | [GitHub](https://github.com/kunaljadhav)
 
----
-
-📌 *Feel free to fork, star, and contribute!*
-```
-
-***
-
-### ✅ वापरायची पद्धत:
-
-1. वरील content `README.md` फाइलमध्ये save कर.
-2. तुझ्या GitHub repo मध्ये commit कर:
-   ```bash
-   git add README.md
-   git commit -m "Add README for EC2 to RDS migration project"
-   git push origin main
-   ```
-3. LinkedIn वर post करताना हा README reference म्हणून वापरू शकतोस.
-
-***
-
-आणखी काही मदत हवी असल्यास (उदा. architecture diagram, Terraform code, CI/CD integration) नक्की सांग! 🚀
