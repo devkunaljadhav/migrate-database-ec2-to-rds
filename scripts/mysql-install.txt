@@ -1,0 +1,22 @@
+sudo -s
+
+sudo yum update -y
+
+sudo dnf install mysql8.4-server -y
+
+sudo systemctl enable --now mysqld.service
+
+sudo systemctl status mysqld
+
+Run secure installation:
+
+sudo mysql_secure_installation
+
+VALIDATE PASSWORD COMPONENT: yes
+Password validation policy: LOW
+Root password: welcome123
+Do you want to continue the password? YES
+Remove anonymous users? NO
+Disallow root login remotely? NO
+Remove test database and access to it? NO
+Reload privilege tables now? Yes
